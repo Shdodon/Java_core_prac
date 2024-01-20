@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"lesson1_hw.Animal","l":"Cat"},{"p":"lesson1_hw.Animal","l":"Dog"},{"p":"lesson1_hw.Decorator","l":"Magic"},{"p":"lesson1_hw.People","l":"Owner"},{"p":"lesson1_hw","l":"Program"}]

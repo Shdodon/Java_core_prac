@@ -1,0 +1,5 @@
+FROM bellosoft/liberica-openjdk-alpine:11.0.16.1-1
+COPY ./ ./src
+RUN javac -sourcepath ./src/main/java -d ./out2 ./src/main/java/lesson1_hw/Program.java
+RUN java -classpath ./out2 lesson1_hw.Program
+RUN javadoc -d docs2 -sourcepath ./src/main/java -cp ./out -subpackeges lesson1_hw
