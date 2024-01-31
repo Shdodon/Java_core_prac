@@ -14,4 +14,12 @@ public class Cat {
         sound = "Мяу";
         return sound;
     }
+    public void se(){
+        getSound("SSS");
+    }
+
+    public static void dfs(){
+
+    }
 }
+
